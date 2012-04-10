@@ -1,15 +1,15 @@
 ###Twilio bundle for Laravel
 
 ##Setup
-Install the bundle
+Install the bundle  
     php artisan bundle:install twilio
 
-Include it in application/bundles.php
+Include it in application/bundles.php  
     return array('twilio');
 
 
 ##Usage
-In application/routes.php you can add a simple route to send a text message with
+In application/routes.php you can add a simple route to send a text message with  
     Route::get('/, home', function()
     {
         Bundle::start('twilio');
