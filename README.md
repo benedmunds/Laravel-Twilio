@@ -2,10 +2,10 @@
 
 ##Setup
 Install the bundle  
-     php artisan bundle:install twilio
+	$ php artisan bundle:install twilio
 
 Include it in application/bundles.php  
-     return array('twilio');
+	return array('twilio');
 
 
 ##Usage
