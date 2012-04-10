@@ -1,4 +1,4 @@
-###Twilio bundle for Laravel
+#Twilio bundle for Laravel
 
 ##Setup
 Install the bundle  
