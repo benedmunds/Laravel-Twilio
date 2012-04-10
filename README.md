@@ -3,18 +3,18 @@
 ##Setup
 Install the bundle  
 
-    $ php artisan bundle:install twilio
+	$ php artisan bundle:install twilio
 
 Include it in application/bundles.php  
 
-    return array('twilio');
+	return array('twilio');
 
 
 ##Usage
 In application/routes.php you can add a simple route to send a text message with  
 
-    Route::get('/, home', function()
-    {
+	Route::get('/, home', function()
+	{
         Bundle::start('twilio');
 
         //twilio account settings
@@ -29,7 +29,7 @@ In application/routes.php you can add a simple route to send a text message with
         );
 
         echo $message->sid;
-    });
+	});
 
 
 See [the Twilio documentation](http://readthedocs.org/docs/twilio-php/en/latest/) for API details.
