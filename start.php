@@ -11,7 +11,7 @@ function Services_Twilio_autoload($className) {
     }
     $file = str_replace('_', '/', $className);
     $file = str_replace('Services/', '', $file);
-    return include path('bundle') . "Twilio/$file.php";
+    return include path('bundle') . "twilio/$file.php";
 }
 
 spl_autoload_register('Services_Twilio_autoload');
